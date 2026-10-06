@@ -1,0 +1,31 @@
+{
+  "name": "AkaneRuntime",
+  "transport": {
+    "stdio": "AkaneRuntime.exe --state ./akane_state --stdio",
+    "http": "AkaneRuntime.exe --state ./akane_state --http --host 127.0.0.1 --port 17831"
+  },
+  "commands": {
+    "status": {"cmd":"status"},
+    "learn": {"cmd":"learn","texts":["string"],"save":true},
+    "think": {"cmd":"think","text":"string","rounds":1},
+    "observe": {"cmd":"observe","text":"string","rounds":1,"save":true},
+    "choose": {"cmd":"choose","context":"string","candidates":["string"]},
+    "remember": {"cmd":"remember","memory_id":"string","kind":"string","text":"string","payload":{}},
+    "recall": {"cmd":"recall","text":"string","kind":"string","top_k":5},
+    "plan": {
+      "cmd":"plan",
+      "state":["fact"],
+      "goal":["fact"],
+      "actions":[{"name":"action","requires":["fact"],"adds":["fact"],"removes":["fact"],"cost":1.0}]
+    },
+    "game_step": {
+      "cmd":"game_step",
+      "observation":"string",
+      "state":["fact"],
+      "goal":["fact"],
+      "actions":[],
+      "response_candidates":["string"],
+      "persist":true
+    }
+  }
+}
