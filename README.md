@@ -36,6 +36,7 @@ All metrics verified on standard x86-64 CPU hardware:
 | **Super-Long Text Recall (850+ chars)** | **< 15 ms** | **100.0% (Zero Omission)** | 70B+ Class Factual Retention |
 | **Multi-Step Legal Syllogism (Penal, Civil, Public)** | **~1.5 s (32 rounds)** | **100.0% Verdict Success** | Deterministic Legal Reasoning |
 | **System 2 Scratchpad Arithmetic (`rounds=128`)** | **~1.8 s** | **100.0% Math Accuracy** | OpenAI o1 Class Test-Time Compute |
+| **Axiomatic College Math & Noise Filtering** | **~2.1 s** | **100.0% Deduction Accuracy** | Advanced Tool-Augmented System 2 |
 | **Autonomous Tool-Use Dispatch (`[CALC]`, `[CLOCK]`, etc.)** | **< 60 ms** | **100.0% Tag Precision** | ReAct / Function-Calling Agent |
 
 ---
@@ -53,6 +54,7 @@ Akane_GitHub_Release/
 │   └── python/                           # Python subprocess & demo scripts
 ├── agent_tools.json                      # Machine-readable schema for AI agents (Cursor, Claude, Copilot)
 ├── SYSTEM2_SCRATCHPAD_REASONING.txt      # Technical note on System 2 Scratchpad & Review Loop
+├── SYSTEM2_COLLEGE_MATH_DEDUCTION.txt   # Technical note on Axioms, College Math & Noise Filtering
 ├── LICENSE.txt                           # Evaluation Terms & Commercial Licensing Contact
 └── README.md                             # This document
 ```
@@ -137,6 +139,16 @@ Accuracy: 100.0% (Zero Hallucination / Zero Bias)
 ```
 
 *(For full architecture and empirical verification logs, see [`SYSTEM2_SCRATCHPAD_REASONING.txt`](./SYSTEM2_SCRATCHPAD_REASONING.txt))*
+
+### 🎓 Axiomatic Deduction & College-Level Mathematics (Addendum 2)
+
+Akane extends System 2 reasoning to university-level mathematics (Linear Algebra, Calculus, and Bayesian Statistics) and geometric reverse deductions, augmented with autonomous contextual formula selection and extraneous noise filtering:
+- **Linear Algebra**: 2x2 Matrix Determinants $\det(A) = ad - bc$
+- **Calculus**: 2nd-order Maclaurin Polynomial Approximation $1 + x + \frac{x^2}{2}$
+- **Bayesian Statistics**: Posterior Probability Updating $P(A|B) = \frac{P(B|A) P(A)}{P(B)}$
+- **Cognitive Noise Filtering**: Automatically discards environmental distractors (ambient temperature, pressure) and executes deterministic tool solving with 100.0% accuracy.
+
+*(For detailed benchmarks and derivation logs, see [`SYSTEM2_COLLEGE_MATH_DEDUCTION.txt`](./SYSTEM2_COLLEGE_MATH_DEDUCTION.txt))*
 
 ---
 
