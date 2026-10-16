@@ -2,8 +2,8 @@
 > **Lightweight, Zero-Cloud, Vector-Cognitive AI Engine for Autonomous Game NPCs & Edge Devices**  
 > *Non-Autoregressive Geometric State Compression & Recurrent Loop Inference Core (v1.7.3 / v0.2.1)*
 
-[![Platform](https://img.shields.io/badge/Platform-Windows%20x64-blue.svg)](https://github.com/)
-[![Runtime](https://img.shields.io/badge/Hardware-Pure%20CPU%20(No%20GPU%20Required)-green.svg)](https://github.com/)
+[![Platform](https://img.shields.io/badge/Platform-Windows%20x64-blue.svg)](https://github.com/toki4416maou-rgb/akane)
+[![Runtime](https://img.shields.io/badge/Hardware-Pure%20CPU%20(No%20GPU%20Required)-green.svg)](https://github.com/toki4416maou-rgb/akane)
 [![License](https://img.shields.io/badge/License-Proprietary%20Evaluation%20%2F%20Commercial%20Inquiry-red.svg)](./LICENSE.txt)
 
 ---
@@ -213,16 +213,23 @@ python examples/python/demo_word_meaning_usage.py
 
 ## ⚖️ Enterprise, Source Code & Commercial Licensing
 
-This binary release is provided for **technical evaluation, prototyping, and game integration testing**.
+This binary release is provided for **technical evaluation, academic benchmarking, and game integration testing**.
+
+> [!IMPORTANT]
+> **AI企業・法人様による商用利用について（別途ご相談）**
+> AI企業・テック法人による自社モデル開発、ChatGPTクローン等の商用会話サービス、AIエージェント基盤への組み込み、およびモデル蒸留（Distillation）は**無償評価の対象外**であり、**事前に別途ご相談（個別ライセンス・技術提携契約）が必須**となります。
 
 ### 💼 Commercial Inquiry & Full Source Code Access
-The proprietary source architecture, mathematical proofs (Repeated-Key Generator Core), and commercial distribution licenses are available for:
-- AAA / Indie Game Studios seeking high-performance on-device NPC cognition
-- Robotics & Smart Mobility firms requiring offline, zero-latency edge reasoning
-- Enterprise partners seeking custom vector-cognitive architectures
+The proprietary source architecture, mathematical proofs (Repeated-Key Generator Core), and commercial enterprise licenses are available for:
+- **AI Enterprises & Tech Companies** seeking ultra-low-power, zero-VRAM edge cognitive engines and server cost reduction (90%+ savings)
+- **AAA / Indie Game Studios** seeking high-performance on-device NPC cognition with zero cloud latency
+- **Robotics & Smart Mobility Firms** requiring offline, zero-latency edge reasoning on commodity CPUs
+- **Enterprise Partners** seeking on-premises, air-gapped sovereign AI deployments
 
-For licensing terms, technology partnerships, or private source code audits, please reach out via:
-- **Contact / Inquiry**: *(Please refer to LICENSE.txt or direct inquiry to repository owner)*
+For licensing terms, strategic technology partnerships, or private source code audits, please reach out via:
+- **Email**: `toki4416maou@gmail.com`
+- **X (Twitter)**: [`@toki4416maou`](https://x.com/toki4416maou)
+*(Please refer to [`LICENSE.txt`](./LICENSE.txt))*
 
 ---
 
