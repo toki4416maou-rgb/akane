@@ -1,0 +1,93 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+■ AI企業・法人様へ：商用導入・企業用EXEの提供条件と通常版での事前検証について
+  Notice for AI Enterprises: Evaluation via Standard Binary & Enterprise License Requirement
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+本GitHub公開リポジトリをご覧いただきありがとうございます。
+茜 Runtime（Akane Vector-Native Engine）を自社サービス、AI基盤、クラウド製品、
+または商用プロダクトへの導入をご検討されているAI企業・テック法人の皆様へ、
+重要なご案内です。
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. 【重要】企業用EXEは契約締結前の譲渡・提供はできません
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+256次元超球面幾何学、NVIDIA CUDA / GPU並列アクセラレーション、
+マルチスレッド高並列HTTPサーバー機能をフル搭載した
+【企業専用バイナリ（AkaneRuntimeAI企業専用.exe）】およびその商用利用権は、
+正式なエンタープライズ商用ライセンス契約（またはNDA締結後の個別技術提携契約）を
+締結しない限り、第三者へ提供・譲渡・開示することはできません。
+
+無断での商用プロダクトへの組み込み、クラウドサービス化、モデル蒸留（Distillation）は
+著作権法および不正競争防止法により厳格に禁じられています。
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2. まずは同梱の「通常版EXE」で社内検証・性能評価を行ってください
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+本リポジトリ同梱の実行ファイル（`file/AkaneRuntime.exe`）は、
+AI企業・研究機関・開発者の皆様が技術検証を行えるよう無償公開されています。
+
+貴社ローカル環境（CPU）にて、まずはこの通常版EXEを用いて以下を徹底的に検証してください：
+
+・【極小メモリ・超低レイテンシ】: 数十ミリ秒で動作する非自己回帰型ベクトル推論
+・【驚異的なサンプル効率】: 0.09秒で新知識を即時吸収し忘却ゼロ（learn）
+・【真の意味理解と論理演繹】: 法律三段論法・大学数学・三つ組意味論の100%正答率
+・【メモリ帯域幅問題の無効化】: 巨大LLMのHBMボトルネックを解消する幾何学構造
+
+※通常版EXEであっても、主要なAPI（generate, think, learn, game_step等）や
+  ローカルでの通信プロトコル（stdio / HTTP）は企業用版と完全な互換性があります。
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3. 検証後にライセンス契約を決めたらご連絡ください
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+通常版EXEによる社内検証・PoC評価を経て、
+「自社AI基盤に組み込みたい」「GPUサーバー版（AkaneRuntimeAI企業専用.exe）を導入したい」
+「推論インフラコストを90%以上削減したい」「商用ライセンス契約を結びたい」
+と判断されたAI企業様・法人様は、下記窓口までご連絡ください。
+
+NDA（秘密保持契約）締結のうえ、貴社の事業規模・展開計画に応じた柔軟なライセンスプラン
+（年額固定ライセンス、レベニューシェア、OEM組み込み、PoC共同検証等）をご案内し、
+正式契約後に【企業用EXE（AkaneRuntimeAI企業専用.exe）】およびエンタープライズ一式を
+正式にお引き渡しいたします。
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+4. お問い合わせ・ライセンス相談窓口
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Akane Cognitive Lab（開発・ライセンス発行元）
+・担当窓口: toki4416maou
+・Email: toki4416maou@gmail.com
+・X (Twitter): @toki4416maou (https://x.com/toki4416maou)
+・GitHub: 本リポジトリの Issue / ダイレクト問い合わせ
+
+
+=================================================================================
+ENGLISH SUMMARY FOR GLOBAL AI ENTERPRISES & TECH FIRMS
+=================================================================================
+
+1. NO ENTERPRISE BINARY DISTRIBUTION WITHOUT FORMAL CONTRACT
+The GPU-accelerated, 256-dimensional, high-throughput server edition
+("AkaneRuntimeAI企業専用.exe") is strictly restricted and cannot be distributed,
+transferred, or deployed without an executed Enterprise Commercial License or NDA.
+
+2. EVALUATE FIRST USING THE STANDARD BINARY
+AI enterprises and research institutions are strongly encouraged to first evaluate
+the technology using the publicly provided standard binary (`file/AkaneRuntime.exe`).
+Verify its sub-100ms latency, zero-forgetting one-shot ingestion, and unique
+geometric non-autoregressive architecture on your local hardware.
+
+3. CONTACT US TO EXECUTE COMMERCIAL LICENSING
+Once your technical evaluation confirms the extreme cost and performance benefits
+(90%+ cloud GPU compute savings), please reach out to execute an Enterprise License.
+Upon agreement, the full Enterprise GPU Server Binary and integration support will
+be formally provisioned.
+
+- Contact Email: toki4416maou@gmail.com
+- X (Twitter): @toki4416maou (https://x.com/toki4416maou)
+=================================================================================

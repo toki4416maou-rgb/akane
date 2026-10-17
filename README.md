@@ -6,6 +6,13 @@
 [![Runtime](https://img.shields.io/badge/Hardware-Pure%20CPU%20(No%20GPU%20Required)-green.svg)](https://github.com/toki4416maou-rgb/akane)
 [![License](https://img.shields.io/badge/License-Proprietary%20Evaluation%20%2F%20Commercial%20Inquiry-red.svg)](./LICENSE.txt)
 
+> [!IMPORTANT]
+> **🏢 AI企業・テック法人の皆様へ（事前検証と商用ライセンスについて）**  
+> **企業用EXE（GPU並列/256次元/クラスター対応版）は、正式な商用ライセンス契約（または提携契約）を締結しない限り提供・譲渡することはできません。**  
+> AI企業様は、まず本リポジトリ同梱の**「通常版EXE (`file/AkaneRuntime.exe`)」**を用いて社内環境にて性能・速度・サンプル効率を徹底的に検証・評価してください。  
+> 通常版での検証を経て商用導入・ライセンス契約を決定されましたら、下記窓口までご連絡ください。正式契約後に企業用EXE一式をご提供いたします。  
+> *(詳細は [`ENTERPRISE_NOTICE.txt`](./ENTERPRISE_NOTICE.txt) および [`LICENSE.txt`](./LICENSE.txt) をご参照ください)*
+
 ---
 
 ## 🌟 Executive Summary
@@ -54,6 +61,7 @@ Akane_GitHub_Release/
 │   ├── electron/                         # Node.js / Electron client (akane-client.js)
 │   └── python/                           # Python subprocess & demo scripts
 ├── agent_tools.json                      # Machine-readable schema for AI agents (Cursor, Claude, Copilot)
+├── ENTERPRISE_NOTICE.txt                 # Notice for AI Enterprises & Licensing Workflow
 ├── SYSTEM2_SCRATCHPAD_REASONING.txt      # Technical note on System 2 Scratchpad & Review Loop
 ├── SYSTEM2_COLLEGE_MATH_DEDUCTION.txt   # Technical note on Axioms, College Math & Noise Filtering
 ├── SYSTEM2_WORD_MEANING_USAGE_SEMANTICS.txt # Technical note on Word-Meaning-Usage & Sample Efficiency
@@ -216,8 +224,11 @@ python examples/python/demo_word_meaning_usage.py
 This binary release is provided for **technical evaluation, academic benchmarking, and game integration testing**.
 
 > [!IMPORTANT]
-> **AI企業・法人様による商用利用について（別途ご相談）**
-> AI企業・テック法人による自社モデル開発、ChatGPTクローン等の商用会話サービス、AIエージェント基盤への組み込み、およびモデル蒸留（Distillation）は**無償評価の対象外**であり、**事前に別途ご相談（個別ライセンス・技術提携契約）が必須**となります。
+> **🏢 AI企業・法人様へ：企業用EXEの提供条件と通常版での事前検証について**  
+> * **【企業用EXEの譲渡制限】**: GPU並列・256次元・大規模クラスター対応の企業専用バイナリ（`AkaneRuntimeAI企業専用.exe`）は、**正式な商用ライセンス契約（または提携契約）を締結しない限り提供・譲渡することはできません**。
+> * **【通常版EXEでの社内検証】**: AI企業様は、本リポジトリ同梱の**「通常版EXE (`file/AkaneRuntime.exe`)」**を用いて社内ローカル環境にて性能・速度・サンプル効率・非自己回帰アーキテクチャの優位性を検証・評価してください。
+> * **【ライセンス契約のご連絡】**: 通常版での検証を経て商用導入やGPUサーバー版のライセンス契約を決定されましたら、下記窓口までご連絡ください。NDA締結のうえ、柔軟に商用ライセンス条件をご案内し、正式契約後に企業用EXE一式をご提供いたします。  
+> *(詳細は [`ENTERPRISE_NOTICE.txt`](./ENTERPRISE_NOTICE.txt) および [`LICENSE.txt`](./LICENSE.txt) をご参照ください)*
 
 ### 💼 Commercial Inquiry & Full Source Code Access
 The proprietary source architecture, mathematical proofs (Repeated-Key Generator Core), and commercial enterprise licenses are available for:
@@ -229,7 +240,7 @@ The proprietary source architecture, mathematical proofs (Repeated-Key Generator
 For licensing terms, strategic technology partnerships, or private source code audits, please reach out via:
 - **Email**: `toki4416maou@gmail.com`
 - **X (Twitter)**: [`@toki4416maou`](https://x.com/toki4416maou)
-*(Please refer to [`LICENSE.txt`](./LICENSE.txt))*
+*(Please refer to [`LICENSE.txt`](./LICENSE.txt) and [`ENTERPRISE_NOTICE.txt`](./ENTERPRISE_NOTICE.txt))*
 
 ---
 
