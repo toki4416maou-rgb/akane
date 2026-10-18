@@ -7,11 +7,11 @@
 [![License](https://img.shields.io/badge/License-Proprietary%20Evaluation%20%2F%20Commercial%20Inquiry-red.svg)](./LICENSE.txt)
 
 > [!IMPORTANT]
-> **🏢 AI企業・テック法人の皆様へ（事前検証と商用ライセンスについて）**  
-> **企業用EXE（GPU並列/256次元/クラスター対応版）は、正式な商用ライセンス契約（または提携契約）を締結しない限り提供・譲渡することはできません。**  
-> AI企業様は、まず本リポジトリ同梱の**「通常版EXE (`file/AkaneRuntime.exe`)」**を用いて社内環境にて性能・速度・サンプル効率を徹底的に検証・評価してください。  
-> 通常版での検証を経て商用導入・ライセンス契約を決定されましたら、下記窓口までご連絡ください。正式契約後に企業用EXE一式をご提供いたします。  
-> *(詳細は [`ENTERPRISE_NOTICE.txt`](./ENTERPRISE_NOTICE.txt) および [`LICENSE.txt`](./LICENSE.txt) をご参照ください)*
+> **🏢 Notice for AI Enterprises & Technology Corporations (Evaluation & Commercial Licensing)**  
+> **The Flagship / Enterprise Binaries (CUDA GPU-Accelerated / 512-dim & 256-dim Cluster Editions) cannot be distributed or transferred prior to executing a formal commercial license or strategic partnership agreement.**  
+> AI enterprises are strongly encouraged to first benchmark, verify, and evaluate runtime performance, sub-millisecond latency, and sample efficiency on your internal systems using the publicly included **Standard Binary (`file/AkaneRuntime.exe`)**.  
+> Once your technical evaluation confirms the architecture's cost-efficiency and performance advantages, please contact our licensing desk. The full enterprise binaries, server cluster tooling, and SDK will be delivered upon agreement execution.  
+> *(See [`ENTERPRISE_NOTICE.txt`](./ENTERPRISE_NOTICE.txt) and [`LICENSE.txt`](./LICENSE.txt) for details)*
 
 ---
 
@@ -49,7 +49,7 @@ All metrics verified on standard x86-64 CPU hardware:
 
 > [!NOTE]
 > **Minimal Vector Dimension Specification (`dim=32 ~ 64`)**:  
-> 上記の全ベンチマーク実証結果は、一般コンシューマー向け（30,000円クラスの軽量ゲームNPC用途・エッジ組み込み）を想定した**最小ベクトル次元（`dim=32〜64` / 0.75MBコア）**で計測されたものです。極小のベクトル次元構成でありながら、高度な論理演繹・概念合成・矛盾検知を完全に達成しています。
+> All benchmark results above were measured on our **minimal consumer vector dimension (`dim=32–64` / 0.75MB binary core)** designed for lightweight edge game NPCs and commodity devices. Even at this ultra-compact dimensional footprint, Akane completely achieves advanced deductive reasoning, conceptual synthesis, and contradiction rejection without external cloud models.
 
 ---
 
@@ -208,9 +208,9 @@ python examples/python/demo_intel_gpu_math.py
 While traditional Large Language Models (LLMs) suffer from abysmal sample efficiency—requiring trillions of web tokens to pretrain and thousands of QA pairs to fine-tune (which easily induces catastrophic forgetting and hallucinations)—Akane adopts the **Semantic Triad Grounding** paradigm:
 
 * **The Semantic Triad**: Every vocabulary concept is defined by three orthogonal constraints:
-  1. **【Word (単語)】**: Surface lexical token
-  2. **【Meaning (意味)】**: Geometric essence, physical properties, categories
-  3. **【Usage (使い方)】**: Pragmatic patterns, collocations, natural emergent syntax
+  1. **【Word】**: Surface lexical token identifier
+  2. **【Meaning】**: Geometric essence, physical constraints, ontological categories
+  3. **【Usage】**: Pragmatic patterns, collocations, natural emergent syntax
 * **One-Shot Ingestion in 0.059 Seconds**: New concepts and words are permanently grounded into vector coordinates with **0% catastrophic forgetting**.
 * **Emergent Syntax without Brittle Grammar Police**: Prescriptive grammar rules create rigid, neurotic penalty traps. By embedding syntax directly within usage patterns, Akane preserves conversational fluency, emotional warmth, and metaphorical flexibility.
 * **Autonomous Falsehood & Lie Rejection**: By verifying meaning constraints (e.g., ground trucks have no wings), Akane automatically rejects physical contradictions and nonsense without soft probabilistic guessing.
@@ -228,11 +228,11 @@ python examples/python/demo_word_meaning_usage.py
 This binary release is provided for **technical evaluation, academic benchmarking, and game integration testing**.
 
 > [!IMPORTANT]
-> **🏢 AI企業・法人様へ：企業用EXEの提供条件と通常版での事前検証について**  
-> * **【企業用EXEの譲渡制限】**: GPU並列・深層512次元／256次元・最大1024ストランド対応の最高位企業専用バイナリ（`AkaneServerRuntime.exe`）は、**正式な商用ライセンス契約（または提携契約）を締結しない限り提供・譲渡することはできません**。
-> * **【通常版EXEでの社内検証】**: AI企業様は、本リポジトリ同梱の**「通常版EXE (`file/AkaneRuntime.exe`)」**を用いて社内ローカル環境にて性能・速度・サンプル効率・非自己回帰アーキテクチャの優位性を検証・評価してください。
-> * **【ライセンス契約のご連絡】**: 通常版での検証を経て商用導入やGPUサーバー版のライセンス契約を決定されましたら、下記窓口までご連絡ください。NDA締結のうえ、柔軟に商用ライセンス条件（コスト削減益シェア20%〜40%、年額固定、株式提携2%〜10%等）をご案内し、正式契約後に企業用EXE一式をご提供いたします。  
-> *(詳細は [`ENTERPRISE_NOTICE.txt`](./ENTERPRISE_NOTICE.txt) および [`LICENSE.txt`](./LICENSE.txt) をご参照ください)*
+> **🏢 Enterprise Notice: Commercial Binary Terms & Technical Evaluation Workflow**  
+> * **Enterprise Binary Distribution Policy**: The GPU-accelerated, deep 512-dim / 256-dim, 1024-strand enterprise server binary (`AkaneServerRuntime.exe`) is **strictly restricted and cannot be transferred or deployed without an executed commercial license or strategic partnership agreement**.  
+> * **Internal Evaluation via Standard Binary**: AI enterprises and tech firms are invited to evaluate latency, throughput, extreme sample efficiency, and non-autoregressive architectural advantages directly on their internal local hardware using the included **Standard Binary (`file/AkaneRuntime.exe`)**.  
+> * **Commercial Engagement & Partnership**: Following internal validation, contact our licensing team to discuss commercial deployment terms under NDA (e.g., Cost-Savings Share 20%–40%, Flat Annual License, or Equity Partnership 2%–10%). The enterprise server suite and documentation are provided immediately upon contract execution.  
+> *(See [`ENTERPRISE_NOTICE.txt`](./ENTERPRISE_NOTICE.txt) and [`LICENSE.txt`](./LICENSE.txt) for detailed terms)*
 
 ### 💼 Commercial Inquiry & Full Source Code Access
 The proprietary source architecture, mathematical proofs (Repeated-Key Generator Core), and commercial enterprise licenses are available for:

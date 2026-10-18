@@ -1,13 +1,106 @@
+================================================================================
+  AKANE RUNTIME: EVALUATION LICENSE & ENTERPRISE COMMERCIAL TERMS
+================================================================================
+
+This repository and the bundled binary executable (`file/AkaneRuntime.exe`) are
+provided as an Evaluation Edition free of charge for individual developers,
+researchers, and corporate technical evaluators for the explicit purposes of:
+[ TECHNICAL BENCHMARKING, SCIENTIFIC EVALUATION, PROTOTYPING & INTEGRATION TESTING ].
+
+
+================================================================================
+1. [CRITICAL] RESTRICTIONS ON FLAGSHIP / ENTERPRISE SERVER BINARIES
+================================================================================
+
+1. NO ENTERPRISE BINARY DISTRIBUTION PRIOR TO EXECUTED AGREEMENT:
+   The high-throughput server edition ("AkaneServerRuntime.exe"), featuring deep
+   512-dimensional / 256-dimensional hyperspherical geometry, NVIDIA CUDA GPU
+   parallel acceleration, and an asynchronous multi-threaded HTTP server cluster core,
+   CANNOT be distributed, transferred, or deployed to any third party without an
+   executed Enterprise Commercial License or strategic technical partnership agreement.
+
+2. EVALUATION VIA THE STANDARD BINARY:
+   Enterprises, AI laboratories, and development teams are encouraged to evaluate
+   the technology locally on CPU hardware using the publicly provided Standard
+   Binary (`file/AkaneRuntime.exe`). Verify its sub-millisecond latency, extreme
+   sample efficiency (0.09s instant ingestion with zero forgetting), and non-autoregressive
+   vector cognitive reasoning.
+
+3. COMMERCIAL LICENSING & INQUIRY:
+   Following technical verification, organizations seeking commercial deployment,
+   API backend integration, or access to the GPU server binaries must execute a
+   formal license agreement under mutual NDA. Flexible models include Cost-Savings Share
+   (20%-40%), Flat Annual Licensing ($80k-$400k/yr), or Equity Partnerships (2%-10%).
+   (See ENTERPRISE_NOTICE.txt for full terms).
+
+
+================================================================================
+2. COMMERCIAL USES REQUIRING A FORMAL ENTERPRISE LICENSE
+================================================================================
+
+A separate commercial license or strategic partnership agreement is strictly
+required prior to any of the following uses:
+
+1. Enterprise & AI Cloud Integration:
+   - Backend deployment in SaaS, PaaS, or cloud-hosted AI service infrastructures.
+   - Operating general-purpose commercial conversational bots, commercial AI assistants, or customer-facing agent services.
+   - Using Akane's internal thought vectors, latent trajectory representations, or generated outputs for distillation, imitation learning, or fine-tuning of competing AI models.
+
+2. Commercial Game & Hardware Distribution:
+   - Bundling or redistributing Akane binaries within commercial video games, robotics, smart mobility devices, or consumer hardware.
+   - Procuring exclusive or non-exclusive commercial distribution rights.
+
+3. Source Code Access & Custom Optimization:
+   - Source code auditing, architectural IP licensing, or technology transfer of the Repeated-Key Generator Core.
+   - Custom optimization for proprietary NPUs, custom silicon, or air-gapped secure on-premises clusters.
+
+
+================================================================================
+3. PERMITTED EVALUATION USES (FREE FOR RESEARCH & PROTOTYPING)
+================================================================================
+
+Users may freely utilize the standard evaluation binary (`file/AkaneRuntime.exe`) for:
+- Local performance benchmarking, latency profiling, and algorithmic evaluation by individual developers, researchers, and students.
+- Prototyping game engine integration (Unity, Godot, Unreal Engine, Electron/Node.js, Python).
+- Experimental integration into personal indie projects utilizing AI coding assistants (Cursor, Claude, GitHub Copilot).
+- Academic evaluation, peer-reviewed citations, and published technical articles regarding the non-autoregressive cognitive architecture.
+
+
+================================================================================
+4. PROHIBITED USES (APPLICABLE TO ALL USERS)
+================================================================================
+
+The following actions are strictly prohibited without written authorization:
+1. Commercial deployment or API monetization by corporate entities without an executed commercial license.
+2. Knowledge distillation, dataset synthesis, or imitation training of third-party language models using Akane thought vectors, internal states, or token streams.
+3. Hosting or deploying unauthorized public conversational agents, cloud SaaS bots, or automated business services.
+4. Decompilation, disassembly, reverse engineering, or algorithmic extraction of AkaneRuntime.exe or AkaneServerRuntime.exe.
+5. Redistribution, reselling, sublicensing, or standalone mirroring of the executable binaries.
+6. Misrepresenting authorship, copyright notices, or deploying the software in violation of applicable laws.
+
+
+================================================================================
+5. LICENSING CONTACT DESK
+================================================================================
+
+For commercial licensing, enterprise deployment, PoC verification, or partnership inquiries:
+- Organization : Akane Cognitive Lab
+- Licensing Desk: toki4416maou
+- Email          : toki4416maou@gmail.com
+- X (Twitter)    : @toki4416maou (https://x.com/toki4416maou)
+- GitHub         : https://github.com/toki4416maou-rgb/akane
+
+
+================================================================================
+--- JAPANESE REFERENCE VERSION (日本語版参考) ---
+================================================================================
+
 # 茜 Runtime (Akane Runtime)
 評価用バイナリ利用規約 & AI企業・商用包括ライセンスについて
-Evaluation Binary License & Enterprise / Commercial Terms
 
 本リポジトリおよび同梱の実行ファイル（file/AkaneRuntime.exe）は、個人開発者・研究者・企業の評価担当者による【技術検証、学術評価、プロトタイピング、接続テスト】を目的とした無償評価版（Evaluation Edition）です。
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 【最重要】AI企業・法人様へ：企業用EXEの提供条件と通常版での事前検証
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
 1. 【企業用EXEは契約締結前の譲渡・提供はできません】
    深層512次元／256次元超球面幾何学、GPU (CUDA) 並列アクセラレーション、高並列HTTPサーバー機能を搭載した
    【最高位企業専用バイナリ（AkaneServerRuntime.exe）】は、正式な商用ライセンス契約（または提携契約）を
@@ -19,47 +112,11 @@ Evaluation Binary License & Enterprise / Commercial Terms
    非自己回帰型アーキテクチャの優位性を徹底的に検証・評価してください。
 
 3. 【ライセンス契約を決めたらご連絡ください】
-   通常版EXEによる検証を経て、自社AI基盤への商用導入やGPUサーバー版のライセンス契約を
-   ご希望の企業様は、下記窓口までご連絡ください。
-   NDA（秘密保持契約）締結のうえ、柔軟に商用ライセンス条件（コスト削減益シェア20%〜40%、年額固定、株式提携2%〜10%等）を
-   ご案内し、正式契約後に企業用EXE一式をご提供いたします。（詳細は ENTERPRISE_NOTICE.txt 参照）
+   通常版EXEによる検証を経て、自社AI基盤への商用導入やGPUサーバー版のライセンス契約をご希望の
+   企業様は、窓口（toki4416maou@gmail.com）までご連絡ください。NDA締結のうえ、柔軟に商用ライセンス条件
+   （コスト削減益シェア20%〜40%、年額固定、株式提携2%〜10%等）をご案内し、正式契約後に企業用EXE一式をご提供いたします。
 
-以下に該当する商用利用・本格展開をご希望の場合は、必ず【事前に別途ご相談（個別ライセンス・技術提携契約）】が必要となります。
-
-1. 【AI企業・法人による商用利用】
-   ・自社AIサービス、SaaS/PaaS、クラウド基盤へのバックエンド組み込み
-   ・ChatGPTクローン、汎用会話ボット、商用AIアシスタント製品の開発・運営
-   ・自律型AIエージェント、業務自動化ボット基盤としての商用提供
-   ・本製品の思考ベクトルや出力を利用したAIモデルの蒸留（Distillation）・模倣学習
-
-2. 【商用製品・ゲームへの正式バンドル】
-   ・商用ゲーム作品、ハードウェア製品、ロボティクス等への正式同梱再配布
-   ・エンタープライズ（法人）向け独占・非独占ライセンスの取得
-
-3. 【技術提携・ソースコード開示】
-   ・数理コア（Repeated-Key Generator Core）のソースコード監査および技術移転
-   ・オンプレミス環境や専用チップ・内蔵GPUへのカスタム最適化
-
-※上記をご希望のAI企業様・法人様は、リポジトリ管理者（Akane Cognitive Lab / toki4416maou@gmail.com / X: @toki4416maou）まで直接お問い合わせください。
-NDA（秘密保持契約）締結のうえ、柔軟に商用ライセンス条件をご案内いたします。
-
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-1. 許可される利用（無償評価・研究・インディー検証）
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-購入・利用者は、以下の非商用・評価目的で本製品を無償利用できます。
-
-・個人開発者、研究者、学生によるローカル環境での動作検証およびベンチマーク測定
-・自作ゲームエンジン、Unity、Godot、Electron等からの接続プロトタイプテスト
-・AIコーディングエージェント（Cursor, Claude, Copilot等）を用いた自作ゲームへの組み込み実験
-・本アーキテクチャに関する学術的評価および論文・技術記事での引用・紹介
-
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-2. 禁止事項（すべての利用者に適用）
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-以下を明確に禁止します。
-
+【禁止事項】
 1. 事前許諾のないAI企業・テック法人による商用サービス・自社製品・API基盤への利用
 2. 本製品の思考ログ、生成台詞、ベクトル空間を利用した競合AIモデル・LLMの蒸留学習（Distillation）
 3. ChatGPT等の汎用会話ボット、AIエージェントサービス、業務自動化ボットとしての商用無断公開
@@ -67,16 +124,6 @@ NDA（秘密保持契約）締結のうえ、柔軟に商用ライセンス条�
 5. 本実行ファイルの無断転載、単体での再配布、第三者への無断転売
 6. 本製品の著作者を偽る行為、および法令・公序良俗に反する違法行為への使用
 
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-3. お問い合わせ・個別ライセンス窓口
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-AI企業様向けの商用ライセンス、技術提携、ソースコード開示、PoC検証のご相談：
-
-Akane Cognitive Lab
-・Email: toki4416maou@gmail.com
-・X (Twitter): @toki4416maou (https://x.com/toki4416maou)
-・GitHub: Issue / リポジトリ管理者へのダイレクトメッセージ
-
 --------------------------------------------------
 Copyright (C) 2026 Akane Cognitive Architecture Project. All rights reserved.
+================================================================================

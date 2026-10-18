@@ -1,6 +1,94 @@
+=================================================================================
+  NOTICE FOR AI ENTERPRISES & TECH CORPORATIONS:
+  EVALUATION VIA STANDARD BINARY & COMMERCIAL LICENSING WORKFLOW
+=================================================================================
+
+Thank you for visiting the official Akane Runtime repository.
+This notice outlines the technical evaluation procedure, distribution restrictions,
+and standard commercial licensing models for AI enterprises, cloud providers, and
+technology corporations considering the deployment of the Akane Vector-Native Engine.
+
+
+=================================================================================
+1. [IMPORTANT] NO ENTERPRISE / FLAGSHIP BINARY DISTRIBUTION WITHOUT FORMAL CONTRACT
+=================================================================================
+
+The flagship high-throughput enterprise server binary ("AkaneServerRuntime.exe"),
+which features deep 512-dimensional / 256-dimensional hyperspherical geometry
+(up to 1,024 strands and 128 orthogonal generator bases), NVIDIA CUDA GPU acceleration,
+and an asynchronous multi-threaded HTTP server cluster core, CANNOT be distributed,
+transferred, or deployed to any third party without an executed Enterprise
+Commercial License or technical partnership agreement under mutual NDA.
+
+Unauthorized integration into commercial products, cloud-hosted SaaS/PaaS offerings,
+or knowledge distillation (using Akane thought vectors or outputs to train competing
+models) is strictly prohibited by intellectual property and trade secret laws.
+
+
+=================================================================================
+2. PRE-LICENSE TECHNICAL EVALUATION VIA PUBLIC STANDARD BINARY
+=================================================================================
+
+The standard executable binary included in this repository (`file/AkaneRuntime.exe`)
+is publicly provided for technical evaluation, academic benchmarking, and prototyping.
+
+AI enterprises, research institutes, and engineering teams are strongly encouraged
+to first conduct thorough internal testing on local CPU hardware:
+
+- Sub-Millisecond Vector Latency: Non-autoregressive vector inference operating in tens of milliseconds.
+- Human-Level One-Shot Ingestion: Instant knowledge acquisition in ~0.09s (94 ms) with 0% catastrophic forgetting.
+- True Deductive Reasoning: 100% verdict accuracy on multi-step legal syllogisms, college-level mathematics, and semantic triad validation.
+- Elimination of Memory Bandwidth Bottlenecks: Overcoming LLM HBM memory-wall limitations through compact geometric formulation.
+
+*Note: The standard binary shares complete API and protocol compatibility
+(generate, think, learn, game_step via stdio / HTTP) with the enterprise edition.
+
+
+=================================================================================
+3. ENTERPRISE COMMERCIAL LICENSING BASELINE MODELS
+=================================================================================
+
+Akane Cognitive Lab offers three standard commercial licensing frameworks designed
+to align incentives and maximize customer ROI:
+
+[ MODEL A: COST-SAVINGS SHARE (REVENUE-SHARE MODEL - RECOMMENDED) ]
+Zero downside financial risk. Fees are calculated strictly as a percentage of
+verified infrastructure savings compared to existing cloud LLM API (OpenAI/Anthropic)
+or GPU cluster hosting expenses:
+- Enterprise Tier (256-dim): 20% - 30% of verified cost savings.
+- Flagship Tier (512-dim)  : 30% - 40% of verified cost savings.
+* Your enterprise retains 60% to 80% of all saved compute capital as pure profit margin.
+
+[ MODEL B: FLAT ANNUAL ENTERPRISE LICENSE (FOR TECH MAJORS, GOV & GAME STUDIOS) ]
+Predictable, flat-rate annual software licensing with 100% UNLIMITED token throughput,
+queries, and on-premises / private cloud deployments:
+- Enterprise Tier (256-dim): $80,000 - $160,000 / year (approx. 12M - 24M JPY/yr)
+- Flagship Tier (512-dim)  : $240,000 - $400,000 / year (approx. 36M - 60M JPY/yr)
+
+[ MODEL C: EQUITY / OPTION PARTNERSHIP (FOR HIGH-GROWTH FRONTIER AI STARTUPS) ]
+Tailored for early to growth-stage AI startups seeking to conserve working capital:
+- Enterprise Tier (256-dim): 2% - 5% equity or stock option grant.
+- Flagship Tier (512-dim)  : 5% - 10% equity or stock option grant.
+* Includes dedicated core integration, joint research & development, and engineering co-development.
+
+
+=================================================================================
+4. LICENSING INQUIRY & CONTACT DESK
+=================================================================================
+
+Akane Cognitive Lab (Licensor & Developer)
+- Licensing Lead: toki4416maou
+- Contact Email : toki4416maou@gmail.com
+- X (Twitter)   : @toki4416maou (https://x.com/toki4416maou)
+- GitHub Issues : Open an issue or submit an enterprise inquiry
+
+
+=================================================================================
+--- JAPANESE REFERENCE VERSION (日本語版参考) ---
+=================================================================================
+
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ■ AI企業・法人様へ：商用導入・企業用EXEの提供条件と通常版での事前検証について
-  Notice for AI Enterprises: Evaluation via Standard Binary & Enterprise License Requirement
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 本GitHub公開リポジトリをご覧いただきありがとうございます。
@@ -8,117 +96,30 @@
 または商用プロダクトへの導入をご検討されているAI企業・テック法人の皆様へ、
 重要なご案内です。
 
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 1. 【重要】企業用EXEは契約締結前の譲渡・提供はできません
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
 深層512次元／256次元超球面幾何学（最大1024ストランド展開・128基底ジェネレーター）、
 NVIDIA CUDA / GPU並列アクセラレーション、マルチスレッド高並列HTTPサーバー機能をフル搭載した
 【最高位サーバー専用バイナリ（AkaneServerRuntime.exe）】およびその商用利用権は、
 正式なエンタープライズ商用ライセンス契約（またはNDA締結後の個別技術提携契約）を
 締結しない限り、第三者へ提供・譲渡・開示することはできません。
-
 無断での商用プロダクトへの組み込み、クラウドサービス化、モデル蒸留（Distillation）は
 著作権法および不正競争防止法により厳格に禁じられています。
 
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 2. まずは同梱の「通常版EXE」で社内検証・性能評価を行ってください
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+本リポジトリ同梱の実行ファイル（file/AkaneRuntime.exe）は、AI企業・研究機関・開発者の皆様が
+技術検証を行えるよう無償公開されています。貴社ローカル環境（CPU）にて、まずはこの通常版EXEを
+用いて極小メモリ・超低レイテンシ、驚異的なサンプル効率（0.09s学習・忘却ゼロ）、
+法律三段論法・大学数学・三つ組意味論の100%正答率を徹底的に検証してください。
 
-本リポジトリ同梱の実行ファイル（`file/AkaneRuntime.exe`）は、
-AI企業・研究機関・開発者の皆様が技術検証を行えるよう無償公開されています。
-
-貴社ローカル環境（CPU）にて、まずはこの通常版EXEを用いて以下を徹底的に検証してください：
-
-・【極小メモリ・超低レイテンシ】: 数十ミリ秒で動作する非自己回帰型ベクトル推論
-・【驚異的なサンプル効率】: 0.09秒で新知識を即時吸収し忘却ゼロ（learn）
-・【真の意味理解と論理演繹】: 法律三段論法・大学数学・三つ組意味論の100%正答率
-・【メモリ帯域幅問題の無効化】: 巨大LLMのHBMボトルネックを解消する幾何学構造
-
-※通常版EXEであっても、主要なAPI（generate, think, learn, game_step等）や
-  ローカルでの通信プロトコル（stdio / HTTP）は企業用版と完全な互換性があります。
-
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 3. 検証後にライセンス契約を決めたらご連絡ください
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+通常版EXEによる社内検証・PoC評価を経て、商用導入やGPUサーバー版のライセンス契約をご希望の
+企業様は、窓口（toki4416maou@gmail.com）までご連絡ください。NDA締結のうえ、柔軟に商用ライセンス条件
+（コスト削減益シェア20%〜40%、年額固定、株式提携2%〜10%等）をご案内し、正式契約後に企業用EXE一式をご提供いたします。
 
-通常版EXEによる社内検証・PoC評価を経て、
-「自社AI基盤に組み込みたい」「GPUサーバー版（AkaneServerRuntime.exe）を導入したい」
-「推論インフラコストを90%以上削減したい」「商用ライセンス契約を結びたい」
-と判断されたAI企業様・法人様は、下記窓口までご連絡ください。
+【標準ベース基準】
+・モデルA: コスト削減益シェア（256次元: 20%〜30% / 512次元: 30%〜40%）
+・モデルB: 年額固定ライセンス（256次元: 年額1,200万〜2,400万円 / 512次元: 年額3,600万〜6,000万円）
+・モデルC: 株式提携モデル（256次元: 2%〜5% / 512次元: 5%〜10%）
 
-NDA（秘密保持契約）締結のうえ、貴社の事業規模・財務構造に応じた柔軟なライセンスプランをご案内し、
-正式契約後に【最高位サーバー専用EXE（AkaneServerRuntime.exe）】およびエンタープライズ一式を
-正式にお引き渡しいたします。
-
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-■ 【ベース基準】商用ライセンス・コスト削減益シェア・株式（エクイティ）モデル
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-当研究所では、AI企業様・クラウド事業者様の利益最大化のため、以下の3つのモデルを
-ライセンス契約の「標準ベース基準」として設定しております。
-
-【モデルA: コスト削減益シェア（レベニューシェア型・推奨）】
-従来のOpenAI / Anthropic / クラウドGPUサーバー費用と比較し、本技術導入により
-「浮いた推論コスト（削減額）」をベースにシェアするリスクゼロのプランです。
-・256次元版（Enterprise Tier）: 削減できた費用の【20% 〜 30%】
-・512次元版（Flagship Tier）  : 削減できた費用の【30% 〜 40%】
-※貴社は持ち出し金（赤字リスク）なく、確実に浮いた費用の60%〜80%を純利益として手元に残せます。
-
-【モデルB: 年額固定ライセンス（大企業・官公庁・ゲーム会社向け）】
-・256次元版（Enterprise Tier）: 年額 1,200万円 〜 2,400万円（月額換算 100万〜200万円）
-・512次元版（Flagship Tier）  : 年額 3,600万円 〜 6,000万円（月額換算 300万〜500万円）
-※推論リクエスト数・トークン処理数は完全無制限（オンプレミス / 自社クラウド使い放題）。
-
-【モデルC: 株式（エクイティ）提携モデル（急成長AIスタートアップ向け）】
-初期キャッシュを温存したい成長期のAIスタートアップ企業様向けに、株式付与によるライセンス供与を行っています。
-・256次元版（Enterprise Tier）: 株式・ストックオプション【2% 〜 5%】の付与
-・512次元版（Flagship Tier）  : 株式・ストックオプション【5% 〜 10%】の付与
-※資本業務提携の締結、基幹推論エンジンとしての専属導入、共同研究開発。
-
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-4. お問い合わせ・ライセンス相談窓口
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-Akane Cognitive Lab（開発・ライセンス発行元）
-・担当窓口: toki4416maou
-・Email: toki4416maou@gmail.com
-・X (Twitter): @toki4416maou (https://x.com/toki4416maou)
-・GitHub: 本リポジトリの Issue / ダイレクト問い合わせ
-
-
-=================================================================================
-ENGLISH SUMMARY FOR GLOBAL AI ENTERPRISES & TECH FIRMS
-=================================================================================
-
-1. NO FLAGSHIP/ENTERPRISE BINARY DISTRIBUTION WITHOUT FORMAL CONTRACT
-The GPU-accelerated, 512-dim / 256-dim high-throughput server edition
-("AkaneServerRuntime.exe") is strictly restricted and cannot be distributed,
-transferred, or deployed without an executed Enterprise Commercial License or NDA.
-
-2. EVALUATE FIRST USING THE STANDARD BINARY
-AI enterprises and research institutions are strongly encouraged to first evaluate
-the technology using the publicly provided standard binary (`file/AkaneRuntime.exe`).
-Verify its sub-100ms latency, zero-forgetting one-shot ingestion, and unique
-geometric non-autoregressive architecture on your local hardware.
-
-3. STANDARD COMMERCIAL LICENSING BASELINE
-We offer three standard partnership models designed for enterprise ROI:
-- Model A: Cost-Savings Share (Recommended)
-  Share 20% - 30% (256-dim Enterprise) or 30% - 40% (512-dim Flagship) of verified
-  cloud inference savings vs traditional LLM API / GPU cluster costs. Zero downside risk.
-- Model B: Flat Annual License
-  Unlimited token throughput & on-premise execution: $80k - $160k/yr (256-dim) or $240k - $400k/yr (512-dim).
-- Model C: Equity / Stock Option Partnership (Fast-growing AI startups)
-  Grant 2% - 5% (256-dim) or 5% - 10% (512-dim) equity/options in exchange for full
-  runtime core integration and co-development.
-
-4. CONTACT US
-- Contact Email: toki4416maou@gmail.com
-- X (Twitter): @toki4416maou (https://x.com/toki4416maou)
+窓口: toki4416maou@gmail.com / X: @toki4416maou
 =================================================================================
