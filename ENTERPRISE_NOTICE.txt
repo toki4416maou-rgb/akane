@@ -15,7 +15,7 @@
 
 256次元超球面幾何学、NVIDIA CUDA / GPU並列アクセラレーション、
 マルチスレッド高並列HTTPサーバー機能をフル搭載した
-【企業専用バイナリ（AkaneRuntimeAI企業専用.exe）】およびその商用利用権は、
+【企業専用バイナリ（AkaneServerRuntime.exe）】およびその商用利用権は、
 正式なエンタープライズ商用ライセンス契約（またはNDA締結後の個別技術提携契約）を
 締結しない限り、第三者へ提供・譲渡・開示することはできません。
 
@@ -46,13 +46,13 @@ AI企業・研究機関・開発者の皆様が技術検証を行えるよう無
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 通常版EXEによる社内検証・PoC評価を経て、
-「自社AI基盤に組み込みたい」「GPUサーバー版（AkaneRuntimeAI企業専用.exe）を導入したい」
+「自社AI基盤に組み込みたい」「GPUサーバー版（AkaneServerRuntime.exe）を導入したい」
 「推論インフラコストを90%以上削減したい」「商用ライセンス契約を結びたい」
 と判断されたAI企業様・法人様は、下記窓口までご連絡ください。
 
 NDA（秘密保持契約）締結のうえ、貴社の事業規模・展開計画に応じた柔軟なライセンスプラン
 （年額固定ライセンス、レベニューシェア、OEM組み込み、PoC共同検証等）をご案内し、
-正式契約後に【企業用EXE（AkaneRuntimeAI企業専用.exe）】およびエンタープライズ一式を
+正式契約後に【企業用EXE（AkaneServerRuntime.exe）】およびエンタープライズ一式を
 正式にお引き渡しいたします。
 
 
@@ -73,7 +73,7 @@ ENGLISH SUMMARY FOR GLOBAL AI ENTERPRISES & TECH FIRMS
 
 1. NO ENTERPRISE BINARY DISTRIBUTION WITHOUT FORMAL CONTRACT
 The GPU-accelerated, 256-dimensional, high-throughput server edition
-("AkaneRuntimeAI企業専用.exe") is strictly restricted and cannot be distributed,
+("AkaneServerRuntime.exe") is strictly restricted and cannot be distributed,
 transferred, or deployed without an executed Enterprise Commercial License or NDA.
 
 2. EVALUATE FIRST USING THE STANDARD BINARY

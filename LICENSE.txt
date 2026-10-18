@@ -10,7 +10,7 @@ Evaluation Binary License & Enterprise / Commercial Terms
 
 1. 【企業用EXEは契約締結前の譲渡・提供はできません】
    256次元超球面幾何学、GPU (CUDA) 並列アクセラレーション、高並列HTTPサーバー機能を搭載した
-   【企業専用バイナリ（AkaneRuntimeAI企業専用.exe）】は、正式な商用ライセンス契約（または提携契約）を
+   【企業専用バイナリ（AkaneServerRuntime.exe）】は、正式な商用ライセンス契約（または提携契約）を
    締結しない限り、第三者へ提供・譲渡・開示することはできません。
 
 2. 【通常版EXEで社内検証を行ってください】
