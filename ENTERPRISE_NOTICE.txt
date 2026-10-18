@@ -13,9 +13,9 @@
 1. 【重要】企業用EXEは契約締結前の譲渡・提供はできません
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-256次元超球面幾何学、NVIDIA CUDA / GPU並列アクセラレーション、
-マルチスレッド高並列HTTPサーバー機能をフル搭載した
-【企業専用バイナリ（AkaneServerRuntime.exe）】およびその商用利用権は、
+深層512次元／256次元超球面幾何学（最大1024ストランド展開・128基底ジェネレーター）、
+NVIDIA CUDA / GPU並列アクセラレーション、マルチスレッド高並列HTTPサーバー機能をフル搭載した
+【最高位サーバー専用バイナリ（AkaneServerRuntime.exe）】およびその商用利用権は、
 正式なエンタープライズ商用ライセンス契約（またはNDA締結後の個別技術提携契約）を
 締結しない限り、第三者へ提供・譲渡・開示することはできません。
 
@@ -50,10 +50,35 @@ AI企業・研究機関・開発者の皆様が技術検証を行えるよう無
 「推論インフラコストを90%以上削減したい」「商用ライセンス契約を結びたい」
 と判断されたAI企業様・法人様は、下記窓口までご連絡ください。
 
-NDA（秘密保持契約）締結のうえ、貴社の事業規模・展開計画に応じた柔軟なライセンスプラン
-（年額固定ライセンス、レベニューシェア、OEM組み込み、PoC共同検証等）をご案内し、
-正式契約後に【企業用EXE（AkaneServerRuntime.exe）】およびエンタープライズ一式を
+NDA（秘密保持契約）締結のうえ、貴社の事業規模・財務構造に応じた柔軟なライセンスプランをご案内し、
+正式契約後に【最高位サーバー専用EXE（AkaneServerRuntime.exe）】およびエンタープライズ一式を
 正式にお引き渡しいたします。
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+■ 【ベース基準】商用ライセンス・コスト削減益シェア・株式（エクイティ）モデル
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+当研究所では、AI企業様・クラウド事業者様の利益最大化のため、以下の3つのモデルを
+ライセンス契約の「標準ベース基準」として設定しております。
+
+【モデルA: コスト削減益シェア（レベニューシェア型・推奨）】
+従来のOpenAI / Anthropic / クラウドGPUサーバー費用と比較し、本技術導入により
+「浮いた推論コスト（削減額）」をベースにシェアするリスクゼロのプランです。
+・256次元版（Enterprise Tier）: 削減できた費用の【20% 〜 30%】
+・512次元版（Flagship Tier）  : 削減できた費用の【30% 〜 40%】
+※貴社は持ち出し金（赤字リスク）なく、確実に浮いた費用の60%〜80%を純利益として手元に残せます。
+
+【モデルB: 年額固定ライセンス（大企業・官公庁・ゲーム会社向け）】
+・256次元版（Enterprise Tier）: 年額 1,200万円 〜 2,400万円（月額換算 100万〜200万円）
+・512次元版（Flagship Tier）  : 年額 3,600万円 〜 6,000万円（月額換算 300万〜500万円）
+※推論リクエスト数・トークン処理数は完全無制限（オンプレミス / 自社クラウド使い放題）。
+
+【モデルC: 株式（エクイティ）提携モデル（急成長AIスタートアップ向け）】
+初期キャッシュを温存したい成長期のAIスタートアップ企業様向けに、株式付与によるライセンス供与を行っています。
+・256次元版（Enterprise Tier）: 株式・ストックオプション【2% 〜 5%】の付与
+・512次元版（Flagship Tier）  : 株式・ストックオプション【5% 〜 10%】の付与
+※資本業務提携の締結、基幹推論エンジンとしての専属導入、共同研究開発。
 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -71,8 +96,8 @@ Akane Cognitive Lab（開発・ライセンス発行元）
 ENGLISH SUMMARY FOR GLOBAL AI ENTERPRISES & TECH FIRMS
 =================================================================================
 
-1. NO ENTERPRISE BINARY DISTRIBUTION WITHOUT FORMAL CONTRACT
-The GPU-accelerated, 256-dimensional, high-throughput server edition
+1. NO FLAGSHIP/ENTERPRISE BINARY DISTRIBUTION WITHOUT FORMAL CONTRACT
+The GPU-accelerated, 512-dim / 256-dim high-throughput server edition
 ("AkaneServerRuntime.exe") is strictly restricted and cannot be distributed,
 transferred, or deployed without an executed Enterprise Commercial License or NDA.
 
@@ -82,12 +107,18 @@ the technology using the publicly provided standard binary (`file/AkaneRuntime.e
 Verify its sub-100ms latency, zero-forgetting one-shot ingestion, and unique
 geometric non-autoregressive architecture on your local hardware.
 
-3. CONTACT US TO EXECUTE COMMERCIAL LICENSING
-Once your technical evaluation confirms the extreme cost and performance benefits
-(90%+ cloud GPU compute savings), please reach out to execute an Enterprise License.
-Upon agreement, the full Enterprise GPU Server Binary and integration support will
-be formally provisioned.
+3. STANDARD COMMERCIAL LICENSING BASELINE
+We offer three standard partnership models designed for enterprise ROI:
+- Model A: Cost-Savings Share (Recommended)
+  Share 20% - 30% (256-dim Enterprise) or 30% - 40% (512-dim Flagship) of verified
+  cloud inference savings vs traditional LLM API / GPU cluster costs. Zero downside risk.
+- Model B: Flat Annual License
+  Unlimited token throughput & on-premise execution: $80k - $160k/yr (256-dim) or $240k - $400k/yr (512-dim).
+- Model C: Equity / Stock Option Partnership (Fast-growing AI startups)
+  Grant 2% - 5% (256-dim) or 5% - 10% (512-dim) equity/options in exchange for full
+  runtime core integration and co-development.
 
+4. CONTACT US
 - Contact Email: toki4416maou@gmail.com
 - X (Twitter): @toki4416maou (https://x.com/toki4416maou)
 =================================================================================
