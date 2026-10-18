@@ -47,6 +47,10 @@ All metrics verified on standard x86-64 CPU hardware:
 | **Autonomous Tool-Use Dispatch (`[CALC]`, `[CLOCK]`, etc.)** | **< 60 ms** | **100.0% Tag Precision** | ReAct / Function-Calling Agent |
 | **One-Shot Semantic Triad Grounding (`[Word-Meaning-Usage]`)** | **~59 ms Ingestion** | **100.0% Contradiction Rejection** | Extreme Sample Efficiency |
 
+> [!NOTE]
+> **Minimal Vector Dimension Specification (`dim=32 ~ 64`)**:  
+> 上記の全ベンチマーク実証結果は、一般コンシューマー向け（30,000円クラスの軽量ゲームNPC用途・エッジ組み込み）を想定した**最小ベクトル次元（`dim=32〜64` / 0.75MBコア）**で計測されたものです。極小のベクトル次元構成でありながら、高度な論理演繹・概念合成・矛盾検知を完全に達成しています。
+
 ---
 
 ## 📂 Repository Structure
