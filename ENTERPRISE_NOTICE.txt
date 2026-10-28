@@ -13,7 +13,7 @@ technology corporations considering the deployment of the Akane Vector-Native En
 1. [IMPORTANT] NO ENTERPRISE / FLAGSHIP BINARY DISTRIBUTION WITHOUT FORMAL CONTRACT
 =================================================================================
 
-The flagship high-throughput enterprise server binary ("AkaneServerRuntime.exe"),
+The flagship high-throughput enterprise server binary ("AkaneServer512.exe / AkaneServer256.exe"),
 which features deep 512-dimensional / 256-dimensional hyperspherical geometry
 (up to 1,024 strands and 128 orthogonal generator bases), NVIDIA CUDA GPU acceleration,
 and an asynchronous multi-threaded HTTP server cluster core, CANNOT be distributed,
@@ -99,7 +99,7 @@ Akane Cognitive Lab (Licensor & Developer)
 1. 【重要】企業用EXEは契約締結前の譲渡・提供はできません
 深層512次元／256次元超球面幾何学（最大1024ストランド展開・128基底ジェネレーター）、
 NVIDIA CUDA / GPU並列アクセラレーション、マルチスレッド高並列HTTPサーバー機能をフル搭載した
-【最高位サーバー専用バイナリ（AkaneServerRuntime.exe）】およびその商用利用権は、
+【最高位サーバー専用バイナリ（AkaneServer512.exe / AkaneServer256.exe）】およびその商用利用権は、
 正式なエンタープライズ商用ライセンス契約（またはNDA締結後の個別技術提携契約）を
 締結しない限り、第三者へ提供・譲渡・開示することはできません。
 無断での商用プロダクトへの組み込み、クラウドサービス化、モデル蒸留（Distillation）は
