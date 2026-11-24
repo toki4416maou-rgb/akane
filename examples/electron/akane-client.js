@@ -7,8 +7,10 @@ class AkaneClient {
     this.rl = readline.createInterface({ input: this.proc.stdout });
     this.pending = [];
     this.rl.on('line', line => {
+      const msg = JSON.parse(line);
+      if (msg.event === 'ready') return;
       const resolve = this.pending.shift();
-      if (resolve) resolve(JSON.parse(line));
+      if (resolve) resolve(msg);
     });
   }
   call(payload) {

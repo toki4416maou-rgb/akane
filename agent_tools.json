@@ -1,31 +1,99 @@
 {
-  "name": "AkaneRuntime",
+  "name": "AkaneServer512",
+  "version": "1.7.3-vector-native",
   "transport": {
-    "stdio": "AkaneRuntime.exe --state ./akane_state --stdio",
-    "http": "AkaneRuntime.exe --state ./akane_state --http --host 127.0.0.1 --port 17831"
+    "stdio": "AkaneServer512.exe --state ./akane_state --stdio",
+    "http": "AkaneServer512.exe --state ./akane_state --http --host 127.0.0.1 --port 17831"
   },
   "commands": {
-    "status": {"cmd":"status"},
-    "learn": {"cmd":"learn","texts":["string"],"save":true},
-    "think": {"cmd":"think","text":"string","rounds":1},
-    "observe": {"cmd":"observe","text":"string","rounds":1,"save":true},
-    "choose": {"cmd":"choose","context":"string","candidates":["string"]},
-    "remember": {"cmd":"remember","memory_id":"string","kind":"string","text":"string","payload":{}},
-    "recall": {"cmd":"recall","text":"string","kind":"string","top_k":5},
+    "status": {
+      "cmd": "status"
+    },
+    "init": {
+      "cmd": "init",
+      "texts": ["string"],
+      "dim": 512,
+      "min_pair_freq": 1
+    },
+    "learn": {
+      "cmd": "learn",
+      "texts": ["string"],
+      "save": true
+    },
+    "observe": {
+      "cmd": "observe",
+      "text": "string",
+      "rounds": 2,
+      "save": true
+    },
+    "think": {
+      "cmd": "think",
+      "text": "string",
+      "rounds": 32,
+      "persist": true
+    },
+    "generate": {
+      "cmd": "generate",
+      "text": "string",
+      "composition_mode": "hybrid",
+      "rounds": 64,
+      "braid_rounds": 32,
+      "integration_rounds": 20,
+      "consistency_strength": 2.5,
+      "uncertainty": 0.6,
+      "allow_novel": true,
+      "persist": false
+    },
+    "remember": {
+      "cmd": "remember",
+      "memory_id": "string",
+      "kind": "definition | dialogue | event",
+      "text": "string",
+      "utility": 0.85
+    },
+    "recall": {
+      "cmd": "recall",
+      "text": "string",
+      "kind": "string",
+      "top_k": 5
+    },
+    "choose": {
+      "cmd": "choose",
+      "context": "string",
+      "candidates": ["string"]
+    },
     "plan": {
-      "cmd":"plan",
-      "state":["fact"],
-      "goal":["fact"],
-      "actions":[{"name":"action","requires":["fact"],"adds":["fact"],"removes":["fact"],"cost":1.0}]
+      "cmd": "plan",
+      "state": ["fact"],
+      "goal": ["fact"],
+      "actions": [
+        {
+          "name": "action_name",
+          "requires": ["fact"],
+          "adds": ["fact"],
+          "removes": ["fact"],
+          "cost": 1.0
+        }
+      ]
     },
     "game_step": {
-      "cmd":"game_step",
-      "observation":"string",
-      "state":["fact"],
-      "goal":["fact"],
-      "actions":[],
-      "response_candidates":["string"],
-      "persist":true
+      "cmd": "game_step",
+      "observation": "string",
+      "state": ["fact"],
+      "goal": ["fact"],
+      "actions": [],
+      "composition_mode": "hybrid",
+      "rounds": 64,
+      "braid_rounds": 32,
+      "integration_rounds": 20,
+      "consistency_strength": 2.5,
+      "persist": true
+    },
+    "runtime_ping": {
+      "cmd": "runtime_ping"
+    },
+    "runtime_exit": {
+      "cmd": "runtime_exit"
     }
   }
 }

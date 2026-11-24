@@ -25,6 +25,8 @@ public sealed class AkaneRuntimeClient : IDisposable
         process.Start();
         input = process.StandardInput;
         output = process.StandardOutput;
+        // Consume initial readiness JSON line emitted by AkaneServer512.exe --stdio
+        _ = output.ReadLine();
     }
 
     public async Task<string> CallJsonAsync(string json)

@@ -2,8 +2,8 @@ const path = require('path');
 const { spawn } = require('child_process');
 const readline = require('readline');
 
-const runtime = path.join(process.resourcesPath || __dirname, 'AkaneRuntime.exe');
-const child = spawn(runtime, [], { stdio: ['pipe', 'pipe', 'pipe'], windowsHide: true });
+const runtime = path.join(process.resourcesPath || __dirname, 'AkaneServer512.exe');
+const child = spawn(runtime, ['--stdio'], { stdio: ['pipe', 'pipe', 'pipe'], windowsHide: true });
 const lines = readline.createInterface({ input: child.stdout });
 
 let ready = false;
